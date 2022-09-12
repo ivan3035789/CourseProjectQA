@@ -161,13 +161,7 @@ public class ApplicationForCardTest {
         applicationForCardStep.checkLabelText();
         applicationForCardStep.clickBuyButton();
         applicationForCardStep.checkingThePageNamePaymentByCard();
-//        applicationForCardStep.enteringTheCardNumber(invalidCard);
-//        applicationForCardStep.enteringTheMonth(invalidMonth());
-//        applicationForCardStep.enteringTheYear(invalidYear());
-//        applicationForCardStep.enteringTheOwner(invalidOwner());
-//        applicationForCardStep.enteringCvc(invalidCvc());
         applicationForCardStep.clickContinueButton();
         applicationForCardStep.checkFieldMessage();
-//доделать
     }
 }
